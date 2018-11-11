@@ -2,7 +2,7 @@
 # Let's rock on ALM
 - name: Deploy Jenkins CI
   hosts: jenkins_server
-  remote_user: jenkins
+  
   become: yes
 
   roles:
